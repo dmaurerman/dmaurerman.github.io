@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Directions-Pizza Delizia </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/united/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style rel="stylesheet" type="text/css" href="styles.css"></style>
+</head>
+<body>
+    <div class= "navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            
+            <a href="home.html" class="navbar-brand"> Pizza Delizia</a>
+            
+            <button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">  
+                <span class= "icon-bar"></span>
+                <span class= "icon-bar"></span>
+                <span class= "icon-bar"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                
+                <ul class= "nav navbar-nav navbar-right"> 
+                    
+                    <li><a href="home.html"> <i class="fa fa-home"></i> Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class = "dropdown-toggle" data-toggle= "dropdown"> Social Media <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank" href = "https://twitter.com/?lang=en"><i class="fa fa-twitter"></i>Twitter</a></li>
+                            <li><a target="_blank" href = "https://www.facebook.com/"> <i class="fa fa-facebook-official"></i> Facebook</a></li>
+                            <li><a target="_blank" href = "https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i> Instagram</a></li>
+                            <li><a target="_blank" href = "https://plus.google.com/"><i class="fa fa-google-plus"></i> Google Plus</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="menu.html"> <i class="fa fa-cutlery"></i> Menu </a></li>
+                    <li><a href="photos.html"><i class="fa fa-picture-o"></i> Photos</a></li>
+                    <li class="active"><a href="directions.html"> <i class="fa fa-map-marker"></i> Directions</a></li>
+                    <li><a href="#contact" data-toggle="modal"> <i class="fa fa-envelope-o"></i>  Contact </a></li>
+                    
+                </u>
+            </div>
+        </div>
+    </div>
+    
+    
+<center>
+<table width=728>
+<tr><td>
+<iframe width="728" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=613 Ridge Road, Monmouth Junction, NJ 08852&hl=en&tab=wl&output=embed"></iframe>
+<br>
+<p align=justify>
+Pizza Delizia Italian Restaurant is located on Old English Square, 613 Ridge Road, Monmouth Junction, New Jersey.
+
+<br><br>
+<h4>Hours</h4>
+Mon ~ Thurs: 10:00 AM ~ 10:00 PM<br>
+Fri & Sat:  10:00 AM ~ 11:00 PM<br>
+Sun: 10:00 PM ~ 9:00PM
+</p>
+</td></tr></table>
+</center>
+
+    
+<div class="modal fade" id="contact" role="dialog">        
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="modal-body">
+                    
+                        <div class="form-group">
+                    
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                            
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                    
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                            
+                                <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                            </div>    
+                        </div>
+                        <div class="form-group">
+                        <label for="contact-sub" class="col-lg-2 control-label">Subject</label><div class="col-lg-10">
+                            <textarea class="form-control" rows="1"></textarea></div>
+                        </div>
+                        <div class="form-group">
+                    
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                            
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+</div>
+    
+    
+    <br>
+        <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p style="color:white" class= "navbar-text pull-left">
+                613 Ridge Road, Monmouth Junction, NJ 08852 | 732.329.2277 | thebest@pizza.com<br>
+                Sunday 10am - 9pm<br>
+                Monday - Thursday 10am - 10pm<br>
+                Friday & Saturday 10am - 11pm<br>
+            </p>
+            <br><a target="_blank" href= "http://twitter.com" class= "navbar-text pull-right"> <i class="fa fa-twitter fa-2x"></i></a> 
+            <a target="_blank" href= "http://facebook.com" class= "navbar-text pull-right"> <i class="fa fa-facebook fa-2x"></i></a>
+            <a target="_blank" href="https://www.instagram.com/"  class= "navbar-text pull-right"><i class="fa fa-instagram fa-2x"></i></a>
+            <a target="_blank" href="https://plus.google.com/" class= "navbar-text pull-right"> <i class="fa fa-google-plus fa-2x"></i></a>
+        </div> <!-- container -->
+    </div> <!-- footerbar -->
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
